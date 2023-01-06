@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_Aria {
+    width: 95%;
+    height: 100vh;
+    background-image: url(./images/banner/banner1.png);
+    background-position: center;
+    background-size: contain;
+    padding: 0px 20px;
+}
+
+.header_Section {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.banner_content {
+    width: 40%;
+    /* margin-right: 50px; */
+}
+
+.banner_Title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+
+.banner_info {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+}
+
+.contact_btn {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 20px;
+}
+
+.contact_btn button {
+    width: 160px;
+    background: #F15B22;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 18px;
+
+}
