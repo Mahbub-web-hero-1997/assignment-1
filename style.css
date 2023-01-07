@@ -10,6 +10,7 @@
     background-position: center;
     background-size: contain;
     padding: 0px 20px;
+    margin: auto;
 }
 
 .header_Section {
@@ -99,4 +100,79 @@
 .list img {
     width: 20px;
     margin-right: 8px;
+}
+
+.plan_Section {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.plan_Section h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.plans {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan h4 {
+    margin: 10px 0px;
+}
+
+
+
+.gradient {
+    width: 90%;
+    height: 300px;
+    margin-top: 100px;
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+.plan_Banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(241, 91, 34, 1) 0%, rgba(255, 255, 255, 0) 69%);
+    margin: auto;
+    padding: 50px;
+}
+
+.plan_content {
+    width: 40%;
+
+}
+
+.plan_content h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.plan_content button {
+    width: 110px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    height: 577px;
+    background: #000;
+    margin: auto;
+    margin-top: 100px;
 }
